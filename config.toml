@@ -1,0 +1,64 @@
+baseURL = "https://jg925.github.io"
+languageCode = "en-us"
+title = "Jinny Gui's Site"
+theme = "pulp"
+enableEmoji = true
+publishDir = "public"
+
+[blackfriday]
+    hrefTargetBlank = true
+
+[params]
+    author = "Jinny Gui"
+    avatar = "headshot.jpg"
+    favicon = "favicon.ico"
+    description = """
+        A rising junior majoring in ECE and minoring in CS at Cornell University.
+        I am interested in computer vision, automation, and building power efficient systems.
+    """
+    publicationYear = "2019"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "bio"
+    name = """
+        Bio 
+        (In Build)
+    """ #If display text link, cancel comment out
+    pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
+    # url = "/Bio/"
+    weight = 10
+
+#[[menu.main]]
+#    identifier = "twitter"
+#    name = "Twitter"
+#    pre = "<i class='fab fa-twitter fa-lg'></i>"
+#    url = "https://twitter.com/lostinmusic98"
+#    weight = 20
+
+[[menu.main]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://linkedin.com/in/jinnygui"
+    weight = 20
+
+[[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/jg925"
+    weight = 30
+
+[[menu.main]]
+    identifier = "email"
+    name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:jinnygui@gmail.com"
+    weight = 40
