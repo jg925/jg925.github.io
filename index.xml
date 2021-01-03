@@ -5,6 +5,26 @@
     <link>https://jg925.github.io/</link>
     <description>Recent content on Jinny Gui&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jg925.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jan 2021 15:48:37 -0500</lastBuildDate><atom:link href="https://jg925.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post</title>
+      <link>https://jg925.github.io/blog/test-post/</link>
+      <pubDate>Sun, 03 Jan 2021 15:48:37 -0500</pubDate>
+      
+      <guid>https://jg925.github.io/blog/test-post/</guid>
+      <description>Test post</description>
+    </item>
+    
+    <item>
+      <title>A Brief Intro</title>
+      <link>https://jg925.github.io/about/bio/</link>
+      <pubDate>Sun, 03 Jan 2021 13:06:28 -0500</pubDate>
+      
+      <guid>https://jg925.github.io/about/bio/</guid>
+      <description>Hello! My name is Jinny Gui, and I am a senior undergrad at Cornell University. I study Electrical and Computer Engineering (ECE) and minor in Computer Science (CS). My interests lie within robotics, computer vision, automation, and a general passion for efficiency and social good through a variety of different projects.
+I am currently pursuing a</description>
+    </item>
+    
   </channel>
 </rss>

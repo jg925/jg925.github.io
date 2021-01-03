@@ -3,11 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jg925.github.io/categories/</loc>
+    <loc>https://jg925.github.io/blog/</loc>
+    <lastmod>2021-01-03T15:48:37-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://jg925.github.io/</loc>
+    <lastmod>2021-01-03T15:48:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jg925.github.io/blog/test-post/</loc>
+    <lastmod>2021-01-03T15:48:37-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jg925.github.io/about/bio/</loc>
+    <lastmod>2021-01-03T13:06:28-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jg925.github.io/about/</loc>
+    <lastmod>2021-01-03T13:06:28-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jg925.github.io/categories/</loc>
   </url>
   
   <url>
