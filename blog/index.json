@@ -1,10 +1,10 @@
 [
     {
-        "ref": "https://jg925.github.io/blog/test-post/",
-        "title": "Test Post",
+        "ref": "https://jg925.github.io/blog/welcome/",
+        "title": "Welcome",
         "section": "blog",
         "tags": null,
         "date" : "2021.01.03",
-        "body": "Test post\n"
+        "body": "Welcome! Welcome to my new personal website and blog, where I will post updates related to my career goals, life goals, and other interesting thoughts that deserve a special place.\nI plan to publish reflections, opinions, and other pieces that I sometimes will choose to cross-post on LinkedIn or Medium.\nI started building this site about 2 years ago, and I am SO happy that it is finally setup and finished.\n"
     }
 ]
