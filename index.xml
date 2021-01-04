@@ -6,7 +6,27 @@
     <description>Recent content on Jinny Gui&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jan 2021 17:47:27 -0500</lastBuildDate><atom:link href="https://jg925.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 16:56:11 -0500</lastBuildDate><atom:link href="https://jg925.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Project Section! &#43; Updates</title>
+      <link>https://jg925.github.io/blog/new-project-section/</link>
+      <pubDate>Mon, 04 Jan 2021 16:56:11 -0500</pubDate>
+      
+      <guid>https://jg925.github.io/blog/new-project-section/</guid>
+      <description>I&amp;rsquo;ve now added a project section to the website, accessible here!
+Currently, it only has the maze mapping robot project from a course I took at Cornell University in Fall 2019, but it will have 2 more old projects before I add any future projects.
+I&amp;rsquo;m also considering writing a blog about why neural network report cards should be mainstream and an industry standard. This topic was inspired by one of the papers that was introduced during a TA lead lecture of the NLP course I took this past fall semester.</description>
+    </item>
+    
+    <item>
+      <title>Maze Mapping Robot</title>
+      <link>https://jg925.github.io/projects/maze-mapping-robot/</link>
+      <pubDate>Mon, 04 Jan 2021 13:44:06 -0500</pubDate>
+      
+      <guid>https://jg925.github.io/projects/maze-mapping-robot/</guid>
+      <description>Description Fall 2019, I took the required course for ECE majors: ECE 3400 Intelligent Physical Systems. This was my first college level robotics course since taking one trimester of robotics at my high school, NCSSM. After filling out a survey for team placement, I was grouped with 3 other students in my lab section, a 3-hour Monday evening lab at 7:30 P.M. We worked very well together as a team of four.</description>
+    </item>
+    
     <item>
       <title>Welcome</title>
       <link>https://jg925.github.io/blog/welcome/</link>

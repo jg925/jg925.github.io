@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "https://jg925.github.io/projects/maze-mapping-robot/",
+        "title": "Maze Mapping Robot",
+        "section": "projects",
+        "tags": null,
+        "date" : "2021.01.04",
+        "body": "Description Fall 2019, I took the required course for ECE majors: ECE 3400 Intelligent Physical Systems. This was my first college level robotics course since taking one trimester of robotics at my high school, NCSSM. After filling out a survey for team placement, I was grouped with 3 other students in my lab section, a 3-hour Monday evening lab at 7:30 P.M. We worked very well together as a team of four.\nTwo teammates eventually focused on the circuitry and the actual building of the robot (named Axel), and I and another teammate focused on the algorithmic and signals side of the robot. I thoroughly enjoyed coding the path-planning algorithm for Axel and figuring out the best way to send/receive signals between Axel and the base station.\nDetailed reports of each lab assignment and milestone are available at the links below.\nLinks Published Website Source code\nCompetition Final Round Video The competition was held in the Duffield Hall Atrium on December 10, 2019. We stayed up until 3:00 A.M. the night before to finish testing Axel.   "
+    }
+]
