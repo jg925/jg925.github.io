@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          OCaml Tetris - Jinny Gui&#39;s Site
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Jinny Gui" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://jg925.github.io/img/favicon.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://jg925.github.io/style.min.6f642c5866835106e8a19b94463576436c99be9e41a8714ab3df3daa95f6bf90.css" integrity="sha256-b2QsWGaDUQbooZuURjV2Q2yZvp5BqHFKs989qpX2v5A=">
+  
+  
+  
+  <link rel="stylesheet" href="https://jg925.github.io/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  
+  
+
+  <meta property="og:title" content="OCaml Tetris" />
+<meta property="og:description" content="Description During the fall semester of my senior year, I took the class CS 3110 (Functional Programming). This course aimed to teach the fundamentals of functional programming through the language OCaml. OCaml isn&rsquo;t the most popular and well-documented language, but when compared to Haskell, the other popular functional programming language, it is more beginner-friendly.
+For the final project, I was able to team up with 2 other classmates who were also fellow members of the BRMB (Big Red Marching Band), and we decided to recreate the game Tetris using OCaml." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jg925.github.io/projects/ocaml-tetris/" />
+<meta property="article:published_time" content="2021-01-13T21:36:25-05:00" />
+<meta property="article:modified_time" content="2021-01-13T21:36:25-05:00" />
+<meta itemprop="name" content="OCaml Tetris">
+<meta itemprop="description" content="Description During the fall semester of my senior year, I took the class CS 3110 (Functional Programming). This course aimed to teach the fundamentals of functional programming through the language OCaml. OCaml isn&rsquo;t the most popular and well-documented language, but when compared to Haskell, the other popular functional programming language, it is more beginner-friendly.
+For the final project, I was able to team up with 2 other classmates who were also fellow members of the BRMB (Big Red Marching Band), and we decided to recreate the game Tetris using OCaml.">
+<meta itemprop="datePublished" content="2021-01-13T21:36:25-05:00" />
+<meta itemprop="dateModified" content="2021-01-13T21:36:25-05:00" />
+<meta itemprop="wordCount" content="172">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="https://jg925.github.io/img/headshot.jpg"/>
+<meta name="twitter:title" content="OCaml Tetris"/>
+<meta name="twitter:description" content="Description During the fall semester of my senior year, I took the class CS 3110 (Functional Programming). This course aimed to teach the fundamentals of functional programming through the language OCaml. OCaml isn&rsquo;t the most popular and well-documented language, but when compared to Haskell, the other popular functional programming language, it is more beginner-friendly.
+For the final project, I was able to team up with 2 other classmates who were also fellow members of the BRMB (Big Red Marching Band), and we decided to recreate the game Tetris using OCaml."/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-NY031XMQ4F', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+</head>
+
+  <body>
+    
+  <h1>OCaml Tetris</h1>
+  <header>
+  
+  <div class="avatar">
+    <img class="avatarMask" src="https://jg925.github.io/img/headshot.jpg"
+      alt="">
+    <a href="https://jg925.github.io"><img class="avatar-border" src="https://jg925.github.io/img/avatar-border.svg" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://jg925.github.io">Jinny Gui</a></h2>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NY031XMQ4F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-NY031XMQ4F');
+  </script>
+  </header>
+  
+  
+  
+  <p class="date">January 13, 2021</p>
+  
+  
+  
+  
+  <div id="contentBody">
+    <h2 id="description">Description</h2>
+<p>During the fall semester of my senior year, I took the class CS 3110 (Functional
+Programming). This course aimed to teach the fundamentals of functional programming
+through the language OCaml. OCaml isn&rsquo;t the most popular and well-documented
+language, but when compared to Haskell, the other popular functional programming
+language, it is more beginner-friendly.</p>
+<p>For the final project, I was able to team up with 2 other classmates who were
+also fellow members of the BRMB (Big Red Marching Band), and we decided to
+recreate the game Tetris using OCaml. This project was completed in 3 sprints,
+and we needed to write at least 1500 lines of OCaml code. To hit this requirement,
+a good chunk of our code is dedicated to providing colorblind players a good set
+of color options to choose from so that each piece had a distinct color.</p>
+<p>Our Github repository with the game and any necessary install instructions are
+available at the link below, and anyone can install and play the game.</p>
+<h2 id="links">Links</h2>
+<p><a href="https://github.com/jg925/ocaml-tetris">Source Code</a></p>
+<h2 id="demo-video">Demo Video</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/EyIvHQlfB7w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+  </div>
+  <footer>
+  <p>
+    &copy; 2020 Jinny Gui.
+    Powered by <a href="https://gohugo.io/">Hugo</a>
+    using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+    <a href="https://jg925.github.io/index.xml"> <i class="fa fa-rss-square fa-lg"></i></a>
+  </p>
+</footer>
+
+  </body>
+</html>
