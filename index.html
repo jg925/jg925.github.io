@@ -34,7 +34,7 @@
     " />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://jg925.github.io/" />
-<meta property="og:updated_time" content="2021-01-13T21:36:25-05:00" />
+<meta property="og:updated_time" content="2021-01-14T13:56:07-05:00" />
 <meta itemprop="name" content="Jinny Gui&#39;s Site">
 <meta itemprop="description" content="        A senior majoring in ECE and minoring in CS at Cornell University.
         I am interested in computer vision, automation, and efficiency. &lt;/br&gt;
@@ -59,11 +59,21 @@
 
   
 <script type="application/javascript">
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-NY031XMQ4F', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'G-NY031XMQ4F', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>
