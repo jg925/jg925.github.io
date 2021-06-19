@@ -1,5 +1,14 @@
 [
     {
+        "ref": "https://jg925.github.io/blog/graduation-update/",
+        "title": "Graduation Update",
+        "section": "blog",
+        "tags": null,
+        "date" : "2021.06.18",
+        "body": "Some Updates As the title says, I have recently finished my 4 years of undergraduate studies at Cornell University. Since I am sticking around for another semester to pursue and finish an M.Eng, I will be returning to school in August.\nI have updated my biography and front page matter to reflect this change.\nPlans for M.Eng Although pre-enroll for the fall semester has not started, I am planning to take courses in Graphics, Computer Vision (at the grad level), Robot Perception, and Artificial Intelligence. I will also be completing a project that works with Computer Vision. The project is still TBD.\nSummer Happenings Since graduating, I am currently working with Inspirit AI teaching AI curriculum to high schoolers. Education is something that I am passionate about ever since taking a Science Communications course last fall (Fall 2020). Teaching is one of the best ways to learn and reinforce knowledge, so I aim gaining a lot from this experience. Not just a review of various aspects of ML/AI, but also soft skills that allow me to communicate complex topics to a more general audience. It has also been fun to meet a lot of very passionate AI (undergrad and grad) students.\n"
+    }
+,
+    {
         "ref": "https://jg925.github.io/blog/problem-solving-politics/",
         "title": "A Problem Solving Perspective of Politics",
         "section": "blog",
