@@ -6,7 +6,16 @@
     <description>Recent content on Jinny Gui&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jul 2021 19:44:26 -0400</lastBuildDate><atom:link href="https://jg925.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jan 2022 19:40:23 -0500</lastBuildDate><atom:link href="https://jg925.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Medium</title>
+      <link>https://jg925.github.io/blog/medium/</link>
+      <pubDate>Sat, 01 Jan 2022 19:40:23 -0500</pubDate>
+      
+      <guid>https://jg925.github.io/blog/medium/</guid>
+      <description>New Blogs are now on Medium Click here to access!</description>
+    </item>
+    
     <item>
       <title>The Pains and Gains of Education</title>
       <link>https://jg925.github.io/blog/pains-gains-education/</link>
@@ -94,7 +103,8 @@ I started building this site about 2 years ago, and I am SO happy that it is fin
       <pubDate>Sun, 03 Jan 2021 13:06:28 -0500</pubDate>
       
       <guid>https://jg925.github.io/about/bio/</guid>
-      <description>Hello! My name is Jinny Gui, and I am a recent graduate from Cornell University. I studied Electrical and Computer Engineering (ECE) with a minor in Computer Science (CS). I am currently pursuing an M.Eng in CS that will be completed this fall. My interests lie within Computer Vision, Robotics Perception, and a general passion for efficiency and social good through a variety of different projects. Although I have done 3 summers of research with the Computer Systems Laboratory, I am now focused on industry and directly impacting the world around me.</description>
+      <description>My name is Jinny Gui, and I am a recent graduate from Cornell University. I just finished my M.Eng in Computer Science (CS), and studied Electrical and Computer Engineering (ECE) with a minor in Computer Science (CS) in undergrad. Throughout the last 4.5 years, my interests have fluctuated around one singular idea: the ability to help with technology others and do social good.
+Currently, I am actively working with Inspirit AI as a Curriculum Manager through a contract while also searching for my next job.</description>
     </item>
     
   </channel>
