@@ -89,17 +89,20 @@
                             <div class="ghost-header"></div>
                             <!-- Needed to keep spacing same for section without title -->
                             <p>
-                                Computer Vision** <br /> Autonomous Mobile Robots* <br /> Robot Perception* <br />
+                                Computer Vision** <br /> Intro to Computer Vision^ <br />
+                                Autonomous Mobile Robots* <br /> Robot Perception* <br />
                                 Graphics* <br /> Intro to Machine Learning* <br /> Natural Language Processing
                                 <br />
                                 Intro to IoT -- Tech and Engagement <br /> Digital Signal and Image Processing
                                 <br />
-                                Intelligent Physical Systems <br /> Science Writing for Media
+                                Intelligent Physical Systems^ <br /> Science Writing for Media
                             </p>
                             <div class="section-caption section-footer">
                                 <span>** - PhD. Level </span>
                                 <span>, </span>
                                 <span>* - Masters Level</span>
+                                <span>, <br /></span>
+                                <span>^ - Awards</span>
                             </div>
                         </section>
                         <section class="section" style="display: none;">
@@ -116,52 +119,90 @@
                         </div>
                         <section class="section">
                             <h3>Languages</h3>
-                            <p>Python • MATLAB</p>
+                            <p>Python • MATLAB • C/C++</p>
                         </section>
                         <section class="section">
                             <h3>Machine Learning</h3>
-                            <p>PyTorch • TF/Keras </p>
+                            <p>PyTorch • TF/Keras • NumPy/SciPy • Pandas • Sci-kit </p>
                         </section>
                         <section class="section">
-                            <h3>Web Development</h3>
-                            <p>HTML/CSS • TypeScript • Node.js • Hugo Framework</p>
+                            <h3>Web/Mobile Development</h3>
+                            <p>HTML/CSS • TypeScript • Node.js • Hugo Framework
+                                • Flutter • Android Studio
+                            </p>
                         </section>
-                        <section class="section" style="display: block;">
+                        <section class="section">
+                            <h3>Hardware</h3>
+                            <p>Verilog • Arduino</p>
+                        </section>
+                        <section class="section" style="display: none;">
                             <h3>Other</h3>
-                            <p>French (conversational) </br> Markdown • LaTeX</p>
+                            <p>French (conversational) <br />
+                                Chinese (conversational) <br />
+                                Bash • Markdown • LaTeX</p>
                         </section>
                     </section>
-                    <section class="hidden">
+                    <section class="list">
                         <div class="side-label-container">
                             <div class="rotated-sidebar">
                                 <h2>Awards</h2>
                             </div>
                         </div>
-                        <section>
-                            <h3>CS 3410 Cache </h3>
-                            <time>2013</time>
-                            <p><i>1st Place. Class of 200</i></p>
+                        <section class="no-print">
+                            <a href="https://pages.github.coecis.cornell.edu/jg925/ece3400-2019-team10/"
+                                target="_blank">
+                                <h3>ECE 3400 <br />Maze-Mapping Robots</h3>
+                            </a>
+                            <time>Fall 2019</time>
+                            <p><i>1st Place. 26 Teams</i></p>
+                        </section>
+                        <section class="print-only">
+                            <h3>ECE 3400 <br />Maze Robots</h3>
+                            <time>Fall 2019</time>
+                            <p><i>1st Place. 26 Teams</i></p>
                         </section>
                         <section>
-                            <h3>CS 4620 Raytracer</h3>
-                            <time>2012</time>
-                            <p><i>1st Place. Class of 65</i></p>
-                        </section>
-                        <section>
-                            <h3>CS 2112 AI Bot</h3>
-                            <time>2012</time>
-                            <p><i>1st Place. Class of 50</i></p>
+                            <h3>CS 4670 Kaggle</h3>
+                            <time>Spring 2020</time>
+                            <p><i>7th Place. 140 Teams</i></p>
                         </section>
                     </section>
 
                 </article>
             </div>
             <div class="right-container">
-                <div class="no-print">
+                <div>
                     <h2> Project Experience</h2>
                 </div>
-                <section class="no-print list">
+                <section id=experience class="list">
                     <section>
+                        <h3><a href="https://steganography-webapp.herokuapp.com/" target="_blank">Face Anonymizer</a>
+                        </h3>
+                        <time>2021</time>
+                        <p><i>M.Eng Project advised by Prof. Kilian Weinberger</i></p>
+                        <p>
+                            A face anonymizer web app that is hosted on Heroku, and interfaces
+                            with AWS S3 and uses AWS Lambda to run a face detection and anonymization
+                            algorithm to hide original faces and generate fake faces while keeping the
+                            original faces encoded in the image. Built on Node.js and Express.js<br />
+                        </p>
+                    </section>
+                    <section>
+                        <h3><a href="https://github.com/jg925/ocaml-tetris" target="_blank">Colorblind Tetris</a></h3>
+                        <time>2020</time>
+                        <p><i>A Tetris game built for CS 3110</i></p>
+                        <p>
+                            Built on OCaml with functional, modular programming, using OCaml's
+                            graphics library, <br /> and contains 1500 lines of code. <br />
+                            Worked with 2 other students in an agile development setting.
+                        </p>
+                    </section>
+                    <section class="hidden">
+                        <h3><a href="" target="_blank">COVID Resource App</a></h3>
+                        <time>2020</time>
+                        <p><i>Through the Rewrite Your Summer program</i></p>
+                    </section>
+                    <section class="hidden">
                         <h3><a href="http://campusconquest.com/about" target="_blank">Campus Conquest</a></h3>
                         <time>2012 - 2015</time>
                         <p><i>HTML Game set on Cornell's campus</i></p>
@@ -171,17 +212,7 @@
                             <a class="print-only" href="http://campusconquest.com/about">campusconquest.com/about</a>
                         </p>
                     </section>
-                    <section style="display: none;">
-                        <h3>
-                            <a href="https://github.com/bae43/CritterWorld-3D" target="_blank">Critter World 3D</a>
-                        </h3>
-                        <time>03/2014 - present</time>
-                        <p><i>3D Frontend to CS 2112's Critter World</i></p>
-                        <p>
-                            Independently developed an improved UI that is now used by the course for final demos of
-                            students' backend implementation.
-                        </p>
-                    </section>
+
                 </section>
                 <div>
                     <h2> Work Experience</h2>
@@ -189,29 +220,62 @@
                 <section id="experience" class="list">
                     <section>
                         <h3><a href="https://www.inspiritai.com/" target="_blank">Inspirit AI</a></h3>
-                        <time>June 2021 - August 2021</time>
+                        <time>2021 - present</time>
                         <p><i>AI Scholars Instructor</i></p>
                         <p>
-                            Video Processing in VR Applications
+                            Outside of session, improve AI Scholars curriculum and
+                            implement changes suggested by instructors. <br /> During sessions,
+                            hold Open Labs, troubleshoot student tech issues, and
+                            answer student questions on Piazza.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h3><a href="https://www.inspiritai.com/" target="_blank">Inspirit AI</a></h3>
+                        <time>2021</time>
+                        <p><i>AI Scholars Instructor</i></p>
+                        <p>
+                            Teach high school students over Zoom at a 5:1 student-teacher ratio, lead them through
+                            lectures and Google Colab notebooks to understand the material,
+                            and guide them towards making a final presentation at the end of session. <br />
+                            Provide feedback to suggestions to Inspirit AI team. Work with 1-2 co-instructors per cohort
+                            across different timezones.
                         </p>
                     </section>
                     <section>
                         <h3><a href="#" target="_blank">Teaching Assistant</a></h3>
-                        <time>2013 - 2015</time>
-                        <p><i>Computer Graphics <span class="no-print">(2 semesters)</span>, OO Programming
-                                (Honors)<span class="no-print">,</span> <span class="print-only"><br /></span> Intro
-                                to
-                                Robotics (Honors)</i></p>
+                        <time>2021</time>
+                        <p><i>Intelligent Physical Systems <span class="no-print">(spring 2021)</span></i></p>
                         <p>
-                            Responsible for holding section, writing and grading assignments, and office hours.
-                            <span class="no-print"><br /></span> TA Excellence Award, 2015.
+                            Responsible for grading assignments, answering student
+                            questions on Piazza, and holding office hours.
+                            <span class="no-print"><br /></span>
+                        </p>
+                    </section>
+                    <section>
+                        <h3><a href="https://github.com/cornell-zhang">Undergraduate Research Assistant</a></h3>
+                        <time>2018 - 2020</time>
+                        <p><i>Advised by Prof. Zhiru Zhang</i></p>
+                        <p>
+                            <b>Summer 2020 - Winter 2020: </b>Explore High Level Synthesis (HLS) techniques to build
+                            more complex object detection models for FPGA devices.
+                            <br /> <b>Spring 2019 - Spring 2020:</b> Use object detection techniques in PyTorch to
+                            optimize models for an embedded GPU.
+                            <br /> <b>Summer 2018 - Fall 2018:</b> Improve a machine learning driven autotuning
+                            framework in
+                            Python for FPGAs targeting the tool Quartus and automated a parallelized data collection
+                            process.
+                            <br /> Summer work funded by undergraduate engineering research grants.
+                            <br />
+                            Work with other graduate and undergraduate students, and attend weekly research meetings
+                            with lab group.
                         </p>
                     </section>
                 </section>
-                <div>
+                <div class="no-print">
                     <h2> Activities</h2>
                 </div>
-                <section id="activities" class="list">
+                <section id="activities" class="no-print list">
                     <section>
                         <h3><a href="" target="_blank"></a></h3>
                     </section>
@@ -221,7 +285,11 @@
                         <time>2017 - 2021 (9 semesters)</time>
                         <p><i>2021 Historian, Fall 2018 and Fall 2019 Rank Z Rank Leader</i></p>
                         <p>
-                            Historian:
+                            <b>Historian duties:</b> Manage the BRMB Historian Facebook page, and YouTube accounts.
+                            Take photos and videos at all BRMB events. Upload photos
+                            to SmugMug and videos to YouTube. </br>
+                            <b>Rank Leader duties:</b> Lead rank during pre-game and halftime marching shows.
+                            Teach new members how to march and foster a fun environment for members.
                         </p>
                     </section>
                     <section>
