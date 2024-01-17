@@ -485,7 +485,7 @@
      margin: 2.5em auto;
    }
    aside {
-     width: 78%;
+     width: 52%;
      max-width: 530px;
      height: 2em;
      -webkit-print-color-adjust: exact;
@@ -495,7 +495,7 @@
      margin: 0 2em;
    }
    header .title {
-     margin-bottom: 0.5em;
+     margin-bottom: 0.1em;
    }
    /*Fix subtitle so that it shows on printed pdf resume.*/
    .subtitle {
